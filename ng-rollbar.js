@@ -56,6 +56,7 @@
         critical: logInactiveMessage,
         error: logInactiveMessage,
         warning: logInactiveMessage,
+        warn: logInactiveMessage,
         info: logInactiveMessage,
         debug: logInactiveMessage,
 
@@ -74,6 +75,7 @@
         service.critical = _bindRollbarMethod('critical');
         service.error = _bindRollbarMethod('error');
         service.warning = _bindRollbarMethod('warning');
+        service.warn = _bindRollbarMethod('warn');
         service.info = _bindRollbarMethod('info');
         service.debug = _bindRollbarMethod('debug');
         service.scope = _bindRollbarMethod('scope');
